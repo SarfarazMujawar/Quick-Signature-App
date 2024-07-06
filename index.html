@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Signature</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <nav>
+  <h2>Quick Signature App</h2>
+</nav>
+    <div class="container">
+
+   
+    <div class="main">
+        <div class="top">
+            <div class="block">
+                <label for="colorpicker" class=" ">Select Text Color</label>
+                <input type="color" name="colorpicker" id="colorpicker" class="form-control-color input">
+            </div>
+            <div class="block">
+                <label for="bgpicker" class="">Select Background Color</label>
+                <input type="color" name="bgpicker" id="bgpicker" class="form-control-color input">
+            </div>
+            <div class="block">
+               
+                <label for="fontsize" class="">Select Font Size</label>
+                <select name="fontsize" id="font-size" class="">
+                    
+                    <option value="2">2px</option>
+                    <option value="3">3px</option>
+                    <option value="4">4px</option>
+                    <option value="5">5px</option>
+                    <option value="7">7px</option>
+                    <option value="10">10px</option>
+                  
+                </select>
+                
+            </div>
+        </div>
+       
+            <canvas id="mycanvas" width="900px" height="450px"></canvas>
+       
+       
+        <div class="bottom">
+            <button type="button" class="btn" id="clearButton">Clear</button>
+            <button type="button" class="btn" id="saveButton">Save & download</button>
+            
+            
+        </div>
+        
+    </div>
+</div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
